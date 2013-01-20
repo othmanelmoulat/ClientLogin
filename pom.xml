@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.google.clientlogin</groupId>
+  <artifactId>ClientLogin</artifactId>
+  <version>1.0</version>
+  <packaging>jar</packaging>
+
+  <name>google-api-client-googleapis-auth-clientlogin</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+  <dependency>
+      <groupId>com.google.api.client</groupId>
+      <artifactId>google-api-client-googleapis-auth-clientlogin</artifactId>
+      <version>1.2.3-alpha</version>
+    </dependency>
+    <dependency>
+    <groupId>com.google.api.client</groupId>
+    <artifactId>google-api-client-javanet</artifactId>
+    <version>1.2.3-alpha</version>
+  </dependency>
+    
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  
+  
+</project>
